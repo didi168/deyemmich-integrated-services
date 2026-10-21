@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 76" width="140" height="76" fill="none">
+  <!-- Official DeyemMich Emblem: Deep Midnight Navy #0A0F3F -->
+  <!-- Stylized D spine and loop -->
+  <path d="M 6 70 L 6 8 L 48 8 C 66 8 74 15 74 26 C 74 34 68 41 56 44 L 56 30 L 42 30 L 42 70 Z" fill="#0A0F3F"/>
+  <!-- Pitched roof M with chimney detail -->
+  <path d="M 56 30 L 80 6 L 132 44 L 114 58 L 80 32 L 64 46 Z" fill="#0A0F3F"/>
+  <!-- Chimney / window cutout -->
+  <rect x="73" y="13" width="7" height="9" fill="#0A0F3F"/>
+  <text x="74" y="20" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="5" font-weight="800" fill="#FFFFFF">IS</text>
+</svg>

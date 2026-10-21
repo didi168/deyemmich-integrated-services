@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-NG">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found | DeyemMich Integrated Services</title>
+  <link rel="icon" type="image/svg+xml" href="assets/svg/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .not-found-page {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: var(--space-xl) var(--container-padding);
+    }
+    .not-found-code {
+      font-size: clamp(4rem, 10vw, 8rem);
+      font-weight: 800;
+      color: var(--color-text-primary);
+      line-height: 1;
+      margin-bottom: var(--space-xs);
+    }
+    .not-found-title {
+      font-size: clamp(1.5rem, 3vw, 2.25rem);
+      margin-bottom: var(--space-sm);
+    }
+    .not-found-desc {
+      max-width: 480px;
+      margin-bottom: var(--space-lg);
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/svg/logo-placeholder.svg" alt="DeyemMich Integrated Services Logo" class="brand-logo__img" width="320" height="60">
+      </a>
+      <a href="index.html" class="btn-header-cta">Back to Home</a>
+    </div>
+  </header>
+
+  <main class="not-found-page">
+    <div class="not-found-code">404</div>
+    <h1 class="not-found-title">Page Not Found</h1>
+    <p class="not-found-desc">
+      The property or page you are looking for has been moved or does not exist. Let us help you move in the right direction.
+    </p>
+    <a href="index.html" class="btn-pill btn-pill--dark">
+      <span>Return to Homepage</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </main>
+</body>
+</html>
